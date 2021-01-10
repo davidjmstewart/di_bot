@@ -1,10 +1,13 @@
 # di_bot
-A simple ping/pong bot in NodeJS + TypeScript that is testable, using dependency injection, based on the [tutorial](https://www.toptal.com/typescript/dependency-injection-discord-bot-tutorial) by [Michał Krakiewicz](https://github.com/mkrakiewicz).
+A simple ping/pong bot in Node.js + TypeScript that is testable, using dependency injection, based on the [tutorial](https://www.toptal.com/typescript/dependency-injection-discord-bot-tutorial) by [Michał Krakiewicz](https://github.com/mkrakiewicz).
+
+Uses: Node.js, TypeScript, InversifyJS, Mocha, Chai, & ts-mockito.
 
 # Installing
 
 1. `git clone https://github.com/davidjmstewart/di_bot.git && cd di_bot`
 2. `npm install`
+3. Add your Discord Bot token to the `.env` file **N.B.** It is bad practice to commit credentials to source control. This repo is to allow for reviewing the tutorial by Michał Krakiewicz. Any repo based off this one must ensure that the `.env` file is not committed to source control. 
 
 # Running
 
