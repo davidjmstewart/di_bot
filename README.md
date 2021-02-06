@@ -1,5 +1,5 @@
 # di_bot
-A simple ping/pong bot in Node.js + TypeScript that is testable, using dependency injection, based on the [tutorial](https://www.toptal.com/typescript/dependency-injection-discord-bot-tutorial) by [Michał Krakiewicz](https://github.com/mkrakiewicz).
+A simple ping/pong bot in Node.js + TypeScript that is testable, using dependency injection, based on the tutorial ['Working with TypeScript, Dependency Injection, and Discord Bots'](https://www.toptal.com/typescript/dependency-injection-discord-bot-tutorial) by [Michał Krakiewicz](https://github.com/mkrakiewicz).
 
 Uses: Node.js, TypeScript, InversifyJS, Mocha, Chai, & ts-mockito.
 
